@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sky Booking</title>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<!--====== Header section ======-->
+	<header class="main-nav">
+		<nav class="navbar navbar-expand-lg navbar-cus-style">
+		  <a class="navbar-brand" href="#"><img src="assets/images/logo-white.png" alt=""></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+		    <ul class="navbar-nav">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">HOME</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">ABOUT</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">BLOG</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">PAGES</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">CONTACTS</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Link</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+	</header>
+<!--====== End Header section ======-->	
+
+<!--====== End Header section ======-->	
+	<section class="slider-section">
+		<div class="center-box">
+			<nav>
+			  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+			    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+			    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
+			    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
+			  </div>
+			</nav>
+			<div class="tab-content" id="nav-tabContent">
+			  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+			  	<!-- This is Home Tabs Area -->
+			  	<form>
+			  	  <fieldset class="form-group">
+			  	    <div class="row d-flex">
+			  	      <div class="col-sm-8 d-flex">
+			  	        <div class="form-check">
+			  	          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+			  	          <label class="form-check-label" for="gridRadios1">
+			  	            First radio
+			  	          </label>
+			  	        </div>
+			  	        <div class="form-check">
+			  	          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+			  	          <label class="form-check-label" for="gridRadios2">
+			  	            Second radio
+			  	          </label>
+			  	        </div>
+			  	      </div>
+			  	      <div class="col-sm-4 pl-5">
+				  	      <div class="form-check">
+				  	        <input class="form-check-input" type="checkbox" id="gridCheck1">
+				  	        <label class="form-check-label" for="gridCheck1">
+				  	          Example checkbox
+				  	        </label>
+				  	      </div>			  	      	
+			  	      </div>
+			  	    </div>
+			  	  </fieldset>
+			  	  <div class="form-group row d-flex justify-content-between">
+			  	  	<div class="col-sm-4 pl-5">
+			  	  		<lable>From</lable>
+				  	  	<select class="c-select" style="width: 100%; height: 50px; border: none;">
+							<option selected>New Delhi (DEL)</option>
+							<option value="1">One</option>
+							<option value="2">Two</option>
+							<option value="3">Three</option>
+						</select>
+   			  	        <div class="form-check" style="margin: 0px; padding: 0px;">
+			  	          <input class="form-check-input pl-4 ml-1" type="checkbox" id="gridCheck1">
+			  	          <label class="form-check-label  pl-4 ml-1" for="gridCheck1">
+			  	          Add Nearby Airports
+    		  	          </label>
+			  	        </div>		
+			  	  	</div>
+			  	  	<div class="col-sm-4" style="margin: 0px; padding: 0px;">
+			  	  		<lable>From</lable>
+				  	  	<select class="c-select" style="width: 100%; height: 50px; border: none;">
+							<option selected>New York (JFK)</option>
+							<option value="1">One</option>
+							<option value="2">Two</option>
+							<option value="3">Three</option>
+						</select>
+   			  	        <div class="form-check" style="margin: 0px; padding: 0px;">
+			  	          <input class="form-check-input pl-4 ml-1" type="checkbox" id="gridCheck1">
+			  	          <label class="form-check-label  pl-4 ml-1" for="gridCheck1">
+			  	          Add Nearby Airports
+    		  	          </label>
+			  	        </div>						
+			  	  	</div>
+			  	  	<div class="col-sm-3 pr-5">
+			  	  		<label>Cabin Class</label>
+				  	  	<select class="c-select" style="width: 100%; height: 50px; border: none;">
+							<option selected>Economy</option>
+							<option value="1">One</option>
+							<option value="2">Two</option>
+							<option value="3">Three</option>
+						</select>
+			  	  	</div>
+			  	  </div>
+			  	  <div class="input-cus-group ">
+			  	    <div class="d-cus-flex" style="display:grid; grid-template-columns: repeat(5, auto); width: 900px">
+				  	    <div class="col-1">
+					  	    <label>Departure</label>			  	    
+					  	    <input type="text" class="form-cus" placeholder="Username" style="width: 185px; height: 50px;">
+				  	    </div>
+				  	    <div class="col-1">
+					  	    <label>Return</label>			  	    
+					  	    <input type="text" class="form-cus" placeholder="Username" style="width: 185px; height: 50px;">
+				  	    </div>
+				  	    <div class="col-1">
+				  	      <label for="">Adults(16+)</label>
+			  	    	  <select class="custom-select" style=" width: 135px; height: 50px;">
+			  	    	    <option selected>Choose</option>
+			  	    	    <option value="1">One</option>
+			  	    	    <option value="2">Two</option>
+			  	    	    <option value="3">Three</option>
+			  	    	  </select>				  	    	
+				  	    </div>
+				  	    <div class="col-1">
+				  	      <label for="">Children</label>
+			  	    	  <select class="custom-select" style=" width: 135px; height: 50px;">
+			  	    	    <option selected>Choose</option>
+			  	    	    <option value="1">One</option>
+			  	    	    <option value="2">Two</option>
+			  	    	    <option value="3">Three</option>
+			  	    	  </select>	    	
+				  	    </div>
+				  	    <div class="col-1">
+
+				  	    	<input class="btn-cus" type="button" value="Search" style="width: 185px; height: 50px; border: none; margin-top: 35px; background-color: #b51b73; color: #ffff;">
+				  	    </div>
+			  	    </div>
+			  	  </div>
+			  	</form>
+			  	<!-- End Home Tabs Area -->
+			  </div>
+			  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" style=" background-color: red; padding: 5px;">
+			  	<h1>This is Profile Tabe Area</h1>
+			  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quam suscipit quo ratione, iure laudantium rerum, earum fuga necessitatibus error, excepturi a. Soluta magni accusantium aspernatur modi repellat aperiam, sed.</p>
+			  </div>
+			  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" style=" background-color: green; padding: 5px;">
+			  	<h1>This is contact Tabe Area</h1>
+			  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quam suscipit quo ratione, iure laudantium rerum, earum fuga necessitatibus error, excepturi a. Soluta magni accusantium aspernatur modi repellat aperiam, sed.</p>			  	
+			  </div>
+			</div>
+		</div>		
+	</section>
+<!--====== End Header section ======-->	
+
+<!--====== our customer ======-->
+	<section class="customer-section">
+		<div class="customer-logos">
+			<img src="assets/images/logo-14.png" alt="">
+			<img src="assets/images/logo-15.png" alt="">
+			<img src="assets/images/logo-16.png" alt="">
+			<img src="assets/images/logo-17.png" alt="">
+			<img src="assets/images/logo-18.png" alt="">
+			<img src="assets/images/logo-19.png" alt="">
+		</div>
+	</section>
+<!--====== our customer ======-->	
+
+<!--====== why people choose us ======-->
+	<section class="chooseUs-section">
+		<div class="main-heading">
+			<p style="color: #30908e; font-size: 1.5rem;">Why People Choose Us</p>
+			<h1>Our Advantages</h1>			
+		</div>
+		<div class="content-advantages">
+			<!-- <div class="container"> -->
+				<div class="row">			
+					<div class="col-lg-3 col-md-6 col-sm-12 text-center cs-syle">
+						<div class="icon-box"><i class="fas fa-user-friends 7x"></i></span></div>
+						<h2>The Most Reliable Airlines</h2>
+						<hr class="divider divider-info divider-50">
+						<p>We cooperate only with the most reliable airlines who can boast the perfect reputation.</p>
+					</div>			
+					<div class="col-lg-3 col-md-6 col-sm-12 text-center cs-syle">
+						<div class="icon-box"></div>
+						<h2>More Than 7M Visitors Each Month</h2>
+						<hr class="divider divider-info divider-50">						
+						<p>More than 7 million people use our services to find and book airline tickets.</p>
+					</div>			
+					<div class="col-lg-3 col-md-6 col-sm-12 text-center cs-syle">
+						<div class="icon-box"></div>
+						<h2>User-Friendly Search System</h2>
+						<hr class="divider divider-info divider-50">						
+						<p>Convenient and fast search for airline tickets, hotels and cars.</p>
+					</div>			
+					<div class="col-lg-3 col-md-6 col-sm-12 text-center cs-syle">
+						<div class="icon-box"></div>
+						<h2>Fast and Reliable Ticket Booking</h2>
+						<hr class="divider divider-info divider-50">						
+						<p>We provide reliable ticket booking system, which is also perfect for first-time travellers.</p>
+					</div>			
+				</div>
+			<!-- </div> -->
+		</div>
+	</section>	
+<!--====== end why people choose us ======-->	
+
+<!--====== our support ======-->	
+	<section class="support-section">
+		<div class="support-content">
+			<h1>24/7 SUPPORT</h1>
+			<p>Our Support Service is available 24 hours a day, 7 days a week to help you buy your tickets.</p>
+			<button>GET IN TOUCH</button>
+		</div>
+	</section>
+<!--======End our support ======-->	
+
+<!--======End our support ======-->	
+	<section class="tipTricks-section">
+		<div class="main-heading">
+			<p style="color: #30908e; font-size: 1.5rem;">Why People Choose Us</p>
+			<h1>Our Advantages</h1>			
+		</div>
+		<div class="tipTricks-body" style="padding-top: 125px; margin: 0px 20px;">
+			<div class="row">			
+				<div class="col-lg-6">
+					<div class="bg-img">
+						Test
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="card">
+						<img class="card-img-top" src="assets/images/post-33.jpg" alt="Card image cap">
+						<div class="card-body">
+							<p>September 9, 2019</p>
+							<h4 class="card-title">9 Ways to Become a Successful Travel Blogger</h4>
+							<p class="card-text">Travel blogging is a crowded field — and it gets more crowded day by day. And a lot of the advice that people give are actually counterintuitive to....</p>
+							<a href="#" class="btn-cus">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="card">
+						<img class="card-img-top" src="assets/images/post-33.jpg" alt="Card image cap">
+						<div class="card-body">
+							<p>September 9, 2019</p>
+							<h4 class="card-title">9 Ways to Become a Successful Travel Blogger</h4>
+							<p class="card-text">Travel blogging is a crowded field — and it gets more crowded day by day. And a lot of the advice that people give are actually counterintuitive to....</p>
+							<a href="#" class="btn-cus">Read More</a>
+						</div>
+					</div>
+				</div>
+				<button class="" style="background-color: #b81e76; padding: 20px 50px; border: none; color: #ffff; margin: auto;">VIEW ALL BLOG POSTS</button>
+			</div>
+		</div>
+	</section>
+<!--======End our support ======-->	
+
+    <script type="text/javascript" async="" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" async="" src="assets/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/dbe3f8f8eb.js" crossorigin="anonymous"></script>
+</body>
+</html>

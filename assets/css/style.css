@@ -1,0 +1,231 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+/*===== Header Section =====*/
+.main-nav{
+	width: 100%;
+	/*height: 110px;*/
+}
+.main-nav .navbar-cus-style{
+	width: 100%;
+	height: 110px;
+	background-color: #202744 !important;
+	line-height: 110px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.75rem !important;
+    padding-left: 1.75rem !important;
+}
+.navbar-expand-lg .navbar-nav .active{
+	background-color: #181a2f;
+
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+	background-color: #181a2f;
+}
+.rd-navbar-static .rd-navbar-nav > li.active > a:before, {
+    background-color: #69c62a;
+}
+.nav-link {
+    display: block;
+    padding: 0rem 1rem;
+	font-weight: bold;
+	color: #ffff;
+}
+/*===== End Header Section =====*/
+
+/*===== Slider Section Area Style =====*/
+.slider-section{
+	width: 100%;
+	height: 485px;
+	background-image: url(/assets/images/background-08.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.center-box{
+	margin-left: 186px;
+	padding-top: 70px;
+}
+.nav {
+    display: inline-flex !important;
+    background-color: #24a8bf;
+    border: none;
+    border-radius: 10px 10px 0px 0px;    
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #ffff;
+    background-color: #202744;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover {
+    color: #ffff;
+    background-color: #202744;
+    border: none;
+    border-radius: 10px 10px 0px 0px;    
+}
+.nav-tabs .nav-link {
+    display: block;
+    padding: 0.75rem 3rem;
+    font-weight: bold;
+    color: #ffff;
+}
+.center-box .tab-content{
+	width: 995px;
+	height: 320px; 
+	background-color: #202744;
+	color: #ffff;
+}
+.form-check {
+    position: relative;
+    display: block;
+    padding-left: 3.25rem;
+    padding-top: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /* margin-right: -15px; */
+    /* margin-left: -15px; */
+}
+
+.center-box .tab-content .chack-box{
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+	padding-top: 25px ;
+}
+.center-box .tab-content .chack-box .form-check-box{
+	margin-left: 25px;
+}
+.center-box .tab-content .chack-box .form-check{
+	margin-right: 25px;
+}
+
+.center-box .tab-content{}
+
+/*===== End Slider Section Area Style =====*/
+
+/*===== customer-section =====*/
+.customer-section{
+	width: 100%;
+	height: 250px;
+	background-color: #f1f5f8;
+}
+.customer-section{
+	display: flex; 
+	justify-content: space-around; 
+	align-items: center;
+	flex-wrap: wrap;
+}
+/*===== customer-section =====*/
+
+/*===== choose us-section =====*/
+.chooseUs-section{
+	overflow: hidden;
+}
+.main-heading{
+	padding-top: 125px; 
+	width: 100%; display: flex; 
+	flex-direction: column; 
+	align-items: center;
+}
+.main-heading h1{ 
+	padding-bottom: 10px; 
+	font-size: 3.5rem; 
+	font-weight: bold;
+	 }
+.main-heading::After{
+	content: "";
+	width: 20%;
+	height: 2px;
+	background-color: #9e4875;
+}
+.chooseUs-section .content-advantages{
+	padding-top: 85px;
+}
+.chooseUs-section .content-advantages .cs-syle{
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+	padding-bottom: 150px;
+}
+.chooseUs-section .content-advantages .icon-box{
+	width: 100px; 
+	height: 100px; 
+	border-radius: 50px; 
+	box-shadow: 0px 0px 3px #8888;
+}
+.chooseUs-section .content-advantages .cs-syle h2{
+	/*padding: 35px 0px;*/
+}
+.chooseUs-section .content-advantages .cs-syle .divider {
+    height: 2px;
+    border: none;
+}
+.chooseUs-section .content-advantages .divider-info {
+    background-color: #42d4ec;
+}
+.chooseUs-section .content-advantages .divider-50 {
+    margin-top: 20px;
+    margin-bottom: 22px;
+    width: 50px;
+}
+
+/*=====end of choose us-section =====*/
+
+/*===== our support section =====*/
+.support-section{
+	width: 100%;
+	background-color: #29304d;
+	height: 505px;
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+}
+.support-section .support-content{
+	width: 40%;
+	color: white;
+	text-align: center;
+}
+.support-section .support-content h1{
+	font-size: 4rem;
+	font-weight: bold;
+	color: #ffff;
+}
+.support-section .support-content button{
+	border: 0px;
+	padding: 20px 45px;
+	background-color: #b1176f;
+	color: white;
+	font-weight: bold;
+}
+
+/*=====end our support section =====*/
+
+/*=====Tip and tricks section =====*/
+.tipTricks-section{
+	width: 100%;
+	height: 1150px;
+	background-color: #f1f5f8;
+	overflow: hidden;
+}
+.tipTricks-section .tipTricks-body {}
+.tipTricks-section .tipTricks-body .bg-img{
+	background-image: url(/assets/images/post-32.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 650px;
+	height: 540px;
+}
+/*=====end Tip and tricks section =====*/
